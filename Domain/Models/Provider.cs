@@ -9,12 +9,12 @@ namespace Domain.Models
 {
     public class Provider
     {
-        public int Id { get; set; }
+        public int id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string name { get; set; }
         [Required]
-        public DateTime ProviderDate { get; set; }
-        public ICollection<Product> Products { get; set; }
+        public DateTime providerDate { get; set; }
+        public ICollection<Product> products { get; set; }
     
     }
 }

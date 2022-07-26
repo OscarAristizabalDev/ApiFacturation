@@ -11,7 +11,6 @@ namespace Domain.Models
         public string firstName { get; set; }
         [Required]
         public string lastName { get; set; }
-        public string identification { get; set; }
         public string streetAddress { get; set; }
         public string city { get; set; }
         public string stateOrProvinceAbbr { get; set; }
